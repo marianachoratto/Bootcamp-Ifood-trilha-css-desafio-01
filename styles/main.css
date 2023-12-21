@@ -9,8 +9,8 @@ body{
 }
 
 header{
-    background-image: url('../assets/images/banner.png'),
-    linear-gradient(rgba(0, 0, 0, 0.062)0%, rgba(51, 169, 219, 0.007)50%, rgba(0, 0, 0, 0)100%);
+    background-image: url('../assets/images/banner.png'), 
+    linear-gradient(to left, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
     background-size: auto;
     border-bottom: 1px solid #2189C6;
     padding: 20px;
@@ -27,7 +27,6 @@ header{
     gap: 16px;
     padding: 50px 20px;
     width: 510px;
-    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%); */
 }
 
 .logo{
@@ -119,7 +118,7 @@ span{
 }
 
 #transform-world{
-    height: 250px;
+    height: 550px;
     width: 100%;
     background-image: url('../assets/images/woman-code.png');
     background-repeat: no-repeat;
@@ -179,6 +178,7 @@ footer{
     border-top: 2px solid #33A8DB;
     height: 170px;
     font-size: 16px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
 }
 
 a{
