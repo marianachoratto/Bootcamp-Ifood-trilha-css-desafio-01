@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trilha de CSS - DIO</title>
+  <link rel="stylesheet" href="./styles/main.css">
+
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet"> -->
 </head>
 <body>
   <header class="banner">
@@ -20,7 +25,7 @@
   <main>
     <section id="course-content">
       <h2>O que vou aprender?</h2>
-      <p>
+      <p class="ultimo-desafio">
         Temos 3 módulos recheados de conteúdos do básico ao avançado para que você aprenda a 
         desenvolver sites profissionais utilizando somente HTML e CSS: sem nenhuma biblioteca ou framework a mais.
       </p>
@@ -37,12 +42,12 @@
       </div>
     </section>
     <section id="transform-world">
-      <p>TRANSFORME O MUNDO COM A GENTE</p>
+      <p id="p-transform-world">Transforme o mundo com a gente</p>
     </section>
     <section id="professional-challenges">
-      <h2>Evolua e encare novos desafios profissionais</h2>
-      <img src="assets/images/professional-challenges.png" title="Homem lendo depoimentos em um tablet" alt="Homem lendo depoimentos em um tablet">
-      <p>
+      <h2 class="ultimo-desafio">Evolua e encare novos desafios profissionais</h2>
+      <img src="assets/images/professional-challenges.png" title="Homem lendo depoimentos em um tablet" alt="Homem lendo depoimentos em um tablet" id="img-grande">
+      <p class="ultimo-desafio">
         Junte-se ao nosso ecossistema e transforme o mundo com a gente! Todos os dias dezenas de empresas 
         acessam a nossa plataforma em busca dos talentos mais criativos, dinâmicos e colaborativos, 
         além do conhecimento técnico. 
@@ -52,7 +57,7 @@
   </main>
   <footer>
     <img class="dio-logo" src="assets/images/dio-logo.png" title="Logotipo DIO com o texto make the change" alt="Logotipo DIO com o texto make the change">
-    <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p>
+    <p>Acesse <a href="https://dio.me" target="_blank" rel="external">dio.me</a> e se cadastre agora</p>
   </footer>
 </body>
 </html>
